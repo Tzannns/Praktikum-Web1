@@ -3,23 +3,58 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Dashboard Page</title>
+    <title>Page</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header>Aplikasi Manajemen Pegawai</header>
+    <header>Aplikasi Manajemen Data Jabatan</header>
     <div class="container">
       <aside>
         <ul class="menu">
-          <li><a href="dashboard.html" class="aktif">Dashboard</a></li>
+          <li><a href="dashboard.html">Dashboard</a></li>
           <li><a href="tabel.html">Data Pegawai</a></li>
-          <li><a href="jabatan.html">Data Jabatan</a></li>
+          <li><a href="jabatan.html"> Data jabatan</a></li>
           <li><a href="login.html">Keluar</a></li>
         </ul>
       </aside>
       <section class="main">
-        <h1>Selamat Datang di Aplkasi Manajemen Pegawai</h1>
-        <h3>Anda login sebagai Administrator</h3>
+        <h2 class="judul">Data Jabatan</h2>
+        <a href="form.html" class="tombol">Tambah</a>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>No</th>
+              <th>Jabatan</th>
+              <th>Aktivitas</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Direktur</td>
+              <td>
+                <a class="tombol edit" href="#"> Edit </a>
+                <a class="tombol hapus" href="#"> Hapus </a>
+              </td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Manajer</td>
+              <td>
+                <a class="tombol edit" href="#"> Edit </a>
+                <a class="tombol hapus" href="#"> Hapus </a>
+              </td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>service</td>
+              <td>
+                <a class="tombol edit" href="#"> Edit </a>
+                <a class="tombol hapus" href="#"> Hapus </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </section>
     </div>
     <footer>Copyright &copy; Akhmad Fauzan</footer>
